@@ -1,0 +1,24 @@
+{
+  "name": "@g-tests/changeset-tests",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist.index.js",
+  "module": "./dist.index.mjs",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "tsc",
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
