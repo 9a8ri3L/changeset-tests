@@ -17,8 +17,11 @@
     "release": "pnpm run build && changeset publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gabriel",
+  "license": "MIT",
+  "repository": "https://github.com/9a8ri3L/changeset-tests",
+  "homepage": "https://github.com/9a8ri3L/changeset-tests#readme",
+  "bugs": "https://github.com/9a8ri3L/changeset-tests/issues",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.2",
